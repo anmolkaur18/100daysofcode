@@ -37,7 +37,7 @@ Piyush escaped with final strength = 13.
 
 #include<iostream>
 using namespace std;
-int magic(char a[30][30],int k, int s, int n,int m)
+int magic(char a[100][100],int k, int s, int n,int m)
 {
      bool success = true;
 	 for(int i=0; i<n; i++)
@@ -72,7 +72,7 @@ if(success){
 int main() {
 	int n,m,k,s;
 	cin>> n >> m>> k>> s;
-	char c[30][30];
+	char c[100][100];
 	int i,j;
 	for(i=0; i<n; i++)
 	{
